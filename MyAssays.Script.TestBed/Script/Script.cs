@@ -25,6 +25,12 @@ namespace MyAssays.Script.TestBed.Core
             // Type your script code code here
             // You can paste code from this method directly to MAD Script report element
             Out.WriteTextElement("Hello world");
+
+            // Use following to explore In object
+            // In.AssayDetails
+
+            // (Note: In.Protocol.ContentFolder can be used to access the internal analysis folder (in ReportPreRender) -
+            // but that's not available in this context.)
         }
     }
 }
